@@ -12,6 +12,7 @@
 		F9C1479F1D2491740054F2D1 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F9C1479D1D2491740054F2D1 /* Main.storyboard */; };
 		F9C147A11D2491740054F2D1 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F9C147A01D2491740054F2D1 /* Assets.xcassets */; };
 		F9C147A41D2491740054F2D1 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F9C147A21D2491740054F2D1 /* LaunchScreen.storyboard */; };
+		F9C42AC41D2499B30042269A /* DetailVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = F9C42AC31D2499B30042269A /* DetailVC.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +23,7 @@
 		F9C147A01D2491740054F2D1 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		F9C147A31D2491740054F2D1 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		F9C147A51D2491740054F2D1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F9C42AC31D2499B30042269A /* DetailVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DetailVC.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -60,6 +62,7 @@
 				F9C147A01D2491740054F2D1 /* Assets.xcassets */,
 				F9C147A21D2491740054F2D1 /* LaunchScreen.storyboard */,
 				F9C147A51D2491740054F2D1 /* Info.plist */,
+				F9C42AC31D2499B30042269A /* DetailVC.swift */,
 			);
 			path = "favorite-place";
 			sourceTree = "<group>";
@@ -137,6 +140,7 @@
 			files = (
 				F9C1479C1D2491740054F2D1 /* ViewController.swift in Sources */,
 				F9C1479A1D2491740054F2D1 /* AppDelegate.swift in Sources */,
+				F9C42AC41D2499B30042269A /* DetailVC.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -288,6 +292,7 @@
 				F9C147AA1D2491740054F2D1 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
